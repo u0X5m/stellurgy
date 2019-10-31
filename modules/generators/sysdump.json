@@ -1,0 +1,252 @@
+{
+    "Details": {
+        "Age": 6,
+        "Belts": 1,
+        "Fluff": "",
+        "Giants": 4,
+        "Moons": 15,
+        "Name": "Hyperion",
+        "Settlement": 200,
+        "Stars": 0,
+        "Worlds": 9
+    },
+    "Stars": {
+        "A": {
+            "Class": "K8V",
+            "Designation": "A",
+            "Name": "Hyperion A",
+            "Position": "Primary",
+            "System": {
+                "Epistellar": {
+                    "1": {
+                        "Fluff": "",
+                        "Name": "Hyperion A1",
+                        "Orbit": 1,
+                        "Position": "E1",
+                        "Primary": "A",
+                        "Satellites": {},
+                        "Type": "Helian",
+                        "UWP": "XCD2214-F-053"
+                    }
+                },
+                "Inner": {
+                    "2": {
+                        "Fluff": "",
+                        "Name": "Hyperion A2",
+                        "Orbit": 2,
+                        "Position": "I2",
+                        "Primary": "A",
+                        "Satellites": {
+                            "1": {
+                                "Fluff": "",
+                                "Name": "Hyperion A2-1",
+                                "Position": "2-1",
+                                "Primary": "A",
+                                "Type": "Carbonian Dwarf",
+                                "UWP": "X100000-F-000"
+                            },
+                            "2": {
+                                "Fluff": "",
+                                "Name": "Hyperion A2-2",
+                                "Position": "2-2",
+                                "Primary": "A",
+                                "Type": "Ferrinian Dwarf",
+                                "UWP": "X400000-F-000"
+                            },
+                            "3": {
+                                "Fluff": "",
+                                "Name": "Hyperion A2-3",
+                                "Position": "2-3",
+                                "Primary": "A",
+                                "Type": "EuUtgardian Dwarf",
+                                "UWP": "X210000-F-100"
+                            },
+                            "4": {
+                                "Fluff": "",
+                                "Name": "Hyperion A2-4",
+                                "Position": "2-4",
+                                "Primary": "A",
+                                "Type": "Ferrinian Dwarf",
+                                "UWP": "D100500-F-067"
+                            }
+                        },
+                        "Type": "Jovian Giant",
+                        "UWP": "EGGG237-F-045"
+                    },
+                    "3": {
+                        "Fluff": "",
+                        "Name": "Hyperion A3",
+                        "Orbit": 3,
+                        "Position": "I3",
+                        "Primary": "A",
+                        "Satellites": {
+                            "1": {
+                                "Fluff": "",
+                                "Name": "Hyperion A3-1",
+                                "Position": "3-1",
+                                "Primary": "A",
+                                "Type": "Ferrinian Dwarf",
+                                "UWP": "C300431-F-093 K S"
+                            },
+                            "2": {
+                                "Fluff": "",
+                                "Name": "Hyperion A3-2",
+                                "Position": "3-2",
+                                "Primary": "A",
+                                "Type": "AreanLacustric Dwarf",
+                                "UWP": "B1A0558-F-445 G N"
+                            }
+                        },
+                        "Type": "Ringed Khonsonian Jovian Giant",
+                        "UWP": "XGGG459-F-152"
+                    },
+                    "4": {
+                        "Fluff": "",
+                        "Name": "Hyperion A4",
+                        "Orbit": 4,
+                        "Position": "I4",
+                        "Primary": "A",
+                        "Satellites": {},
+                        "Type": "Helian",
+                        "UWP": "BCD2200-F-097 S"
+                    },
+                    "5": {
+                        "Fluff": "",
+                        "Name": "Hyperion A5",
+                        "Orbit": 5,
+                        "Position": "I5",
+                        "Primary": "A",
+                        "Satellites": {
+                            "1": {
+                                "Fluff": "",
+                                "Name": "Hyperion A5-1",
+                                "Position": "5-1",
+                                "Primary": "A",
+                                "Type": "Lithic Dwarf",
+                                "UWP": "A400300-F-082 M N Y H"
+                            },
+                            "2": {
+                                "Fluff": "",
+                                "Name": "Hyperion A5-2",
+                                "Position": "5-2",
+                                "Primary": "A",
+                                "Type": "Lithic Dwarf",
+                                "UWP": "A100569-F-082 G F M Y N"
+                            }
+                        },
+                        "Type": "Jovian Giant",
+                        "UWP": "EGGG255-F-055"
+                    },
+                    "6": {
+                        "Fluff": "",
+                        "Name": "Hyperion A6",
+                        "Orbit": 6,
+                        "Position": "I6",
+                        "Primary": "A",
+                        "Satellites": {
+                            "1": {
+                                "Fluff": "",
+                                "Name": "Hyperion A6-1",
+                                "Position": "6-1",
+                                "Primary": "A",
+                                "Type": "Cytherean Terrestrial",
+                                "UWP": "XACF153-F-023"
+                            },
+                            "2": {
+                                "Fluff": "",
+                                "Name": "Hyperion A6-2",
+                                "Position": "6-2",
+                                "Primary": "A",
+                                "Type": "Ferrinian Dwarf",
+                                "UWP": "C201633-F-0A1"
+                            },
+                            "3": {
+                                "Fluff": "",
+                                "Name": "Hyperion A6-3",
+                                "Position": "6-3",
+                                "Primary": "A",
+                                "Type": "Carbonian Dwarf",
+                                "UWP": "C300400-F-096"
+                            }
+                        },
+                        "Type": "Ringed Khonsonian Jovian Giant",
+                        "UWP": "CGGG200-F-282 S"
+                    }
+                },
+                "Outer": {
+                    "7": {
+                        "Fluff": "",
+                        "Name": "Hyperion A7",
+                        "Orbit": 7,
+                        "Position": "O7",
+                        "Primary": "A",
+                        "Satellites": {
+                            "1": {
+                                "Fluff": "",
+                                "Name": "Hyperion A7-1",
+                                "Position": "7-1",
+                                "Primary": "A",
+                                "Type": "Gelidian Dwarf",
+                                "UWP": "X400000-F-000"
+                            },
+                            "2": {
+                                "Fluff": "",
+                                "Name": "Hyperion A7-2",
+                                "Position": "7-2",
+                                "Primary": "A",
+                                "Type": "AmunPlutonian Dwarf",
+                                "UWP": "X006000-F-100"
+                            },
+                            "3": {
+                                "Fluff": "",
+                                "Name": "Hyperion A7-3",
+                                "Position": "7-3",
+                                "Primary": "A",
+                                "Type": "Ferrinian Dwarf",
+                                "UWP": "D404320-F-042"
+                            }
+                        },
+                        "Type": "Helian",
+                        "UWP": "XAD4000-F-000"
+                    },
+                    "8": {
+                        "Fluff": "",
+                        "Name": "Hyperion A8",
+                        "Orbit": 8,
+                        "Position": "O8",
+                        "Primary": "A",
+                        "Satellites": {
+                            "1": {
+                                "Fluff": "",
+                                "Name": "Hyperion A8-1",
+                                "Position": "8-1",
+                                "Primary": "A",
+                                "Type": "Lithic Dwarf",
+                                "UWP": "C402400-F-082 G S"
+                            }
+                        },
+                        "Type": "Carbonaceous Belt",
+                        "UWP": "XY00000-F-000"
+                    },
+                    "9": {
+                        "Fluff": "",
+                        "Name": "Hyperion A9",
+                        "Orbit": 9,
+                        "Position": "O9",
+                        "Primary": "A",
+                        "Satellites": {},
+                        "Type": "Saganian Terrestrial",
+                        "UWP": "X6A1000-F-500"
+                    }
+                }
+            }
+        },
+        "B": {
+            "Class": "M7V",
+            "Designation": "B",
+            "Name": "Hyperion B",
+            "Position": "Close",
+            "System": "NA"
+        }
+    }
+}

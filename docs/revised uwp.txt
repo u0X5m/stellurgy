@@ -1,0 +1,406 @@
+Revised UWP
+
+X - Starport/Spaceport
+X - Size
+X - Atmosphere
+X - Hydrosphere
+X - Population
+X - Government
+X - Law Level
+-
+X - Tech Level
+-
+X - Biosphere
+X - Industry
+X - Population Digit
+-
+X - World Type
+X - Bases
+
+##################################################
+##       Starport / Spaceport       ##
+##################################################
+
+##################################################
+##           Size           ##
+##################################################
+
+##################################################
+##         Atmosphere         ##
+##################################################
+
+##################################################
+##         Hydrosphere         ##
+##################################################
+
+##################################################
+##         Population         ##
+##################################################
+
+##################################################
+##         Government         ##
+##################################################
+
+##################################################
+##         Law Level          ##
+##################################################
+
+##################################################
+##                Tech Level                    ##
+##################################################
+
+##################################################
+##                     World                    ##
+##################################################
+
+The world type is a more general way of capturing a world's size, surface dynamics, and chemical composition than just the UWP. It follows the Planetary Classification List:
+
+Small Body Group. These are worlds with less than 0.0001 Earth masses, and thus not massive enough to sustain hydrostatic equilibrium. Typically they are restricted to sizes ranging from a few meters to tens of kilometers across.
+
+	Vulcanoidal Class. These are rocky bodies in epistellar orbits, and marked by high metallic content. Rare, even unique mineralogical properties may develop because of their long term exposure (on the order of billions of years) to intense stellar radiation. First theoretically proposed by Charles Dillon Perrine in the mid-Twentieth Century.
+
+	Asteroidal Class. These are the archetypical asteroids, small and irregular bodies which are often found in specific belts or fields within a solar system, although they may also be found in eccentric solar orbits.
+
+		Metallic Type. Metal-rich, dense objects with a metallic content in excess of 50%. In most systems, these are the least common asteroidal bodies.
+
+		Silicaceous Type. Silicate-rich bodies with a silicate content in excess of 50%. These are fairly common in most solar systems.
+
+		Carbonaceous Type. Carbon-rich bodies with varying amounts of silicates and metals. They are by far the most common Type. of asteroid in most systems.
+
+		Gelidaceous Type. Ice-rich bodies with a frozen volatile content greater than 50%. However, unlike the Cometary Class, these bodies are in stable, relatively circular orbits which do not take them close enough to the local sun for volatile-loss.
+
+		Aggregate Type. Bodies which are essentially debris piles, held together by mutual gravity; their shapes may change over time, subtly or obviously, due to gravitational flexing. Their composition may vary, but for the most part they tend to be silicate-rich.
+
+	Cometary Class. Bodies with an ice content in excess of 50%, and which can be in orbits which carry them relatively close to their sun, causing volatile depletion and outgassing.
+
+		Passive Type.  These are Cometary bodies which remain in distant stellar orbits, or are in the slow process of having their orbits transformed into those which will take them close to the stellar primary.
+
+			Oort SubType. These are dormant bodies which never venture from the outer most regions of their sun's gravity well. Typically located in the Oort butt, these worlds are nearly unchanged from the time of their initial formation.
+
+			Kuiper SubType. These are dormant bodies which never venture from their local sun's Kuiper belt, and remain relatively unchanged since the time of their initial formation.
+
+			Centaur SubType. Dormant bodies which have been gravitational ejected from either the Oort butt or the Kuiper belt, and found within the outer planetary region of the system. Their orbits are gravitationally unstable, and will likely become Active Type. comets.
+
+		Active Type.  These are Cometary bodies which are in orbits that take them fairly close to their stellar primary, resulting in volatile loss. These are the classical comets.
+
+			ActiveBrevis SubType. Active bodies with orbits of less than 200 years Standard. They remain gravitationally bound to their stellar primary, but may still be subject to shifting orbits over hundreds of millions of years.
+
+			ActiveDirunitus SubType. Active bodies with orbits greater than 200 years Standard, and remaining gravitationally bound to the primary sun.
+
+			ActiveEffigia SubType. Cometary bodies in parabolic or hyperbolic orbits; that is, they pass close to their sun (or a sun) once, and are then flung out of the solar system forever.
+
+		Damocloid Type. Cometary bodies that have lost all of their volatiles, and in appearance look quite similar to asteroids. These bodies are typically quite ancient, although some are of average age, but have been trapped within very short period orbits for most of their active lifetimes.
+
+Dwarf Terrestrial Group. Worlds with masses ranging from 0.0001 to 0.15 that of Earth. Most are massive enough to sustain hydrostatic equilibrium and support geological activity due to tidal forces, although the lesser examples are only roughly spherical and tend to be geologically quiescent.
+
+	Protothermic Class. Dwarf protoplanetary bodies which are still in the process of forming. Their surfaces are often partial to completely molten, and their atmospheres are typically thick with hydrogen and helium, as well as gases released by the massive geological activity; they still suffer major impact events. In general, their ages are less than between 10 and 100 million years. Prior to this, the Dwarf Terrestrial bodies are still accreting mass at a very high rate, and after this point the surface of these worlds, though still occasionally experiencing major impacts, have largely cooled, forming that world's earliest crust.
+
+		ProtoFerrinian Type. These are Dwarf Terrestrial bodies which are still in the process of forming, their surfaces extremely hot or even molten. These worlds have a very high metallic content, and will eventually cool down into iron-rich bodies. Typically, these worlds are found in orbit of high mass or high metal stars.
+
+		ProtoLithian Type. These are Dwarf Terrestrial bodies which are still in the process of forming, their surfaces extremely hot or even molten. These worlds are composed primarily of silicates, and are common in most systems.
+
+		ProtoCarbonic Type. These are Dwarf Terrestrial bodies which are still in the process of forming, their surfaces extremely hot or even molten. They are carbon-rich, and are fairly common, though they tend to appear more in high-massed systems.
+
+		ProtoGelidian Type. These are Dwarf Terrestrial bodies which are still in the process of forming, their surfaces hot, with high instances of geological activity. However, they form in the outer regions of a solar system, and so the primary building material is water. Thus they may possess significant atmospheres and even regions of liquid water on their surfaces as well, although as the world ages and cools, the atmosphere and liquid will freeze out, while the heavier silicates and metals will have since sunk to form the body's core.
+
+	GeoPassive Class. These are worlds which do not sustain continuous or intermittent geological activity, and whose surfaces are largely unchanged since the early period of planetary formation.
+
+		Ferrinian Type. These are dormant worlds composed primarily of metals, and are most commonly found orbiting F-Type. and earlier suns, or in high metallicity systems.
+
+		Lithic Type. These are dormant worlds composed largely of silicates. They are common in all star systems.
+
+			Janian SubType. These are worlds tidally locked to their sun. Silicate rich, they also possess nightside ice caps, the result of trapped volatiles either native to the world and coming from the now vanished primary atmosphere, or delivered via cometary impacts over the eons.
+
+			Hermian SubType. These are hot, silicate worlds with large metallic cores and relatively thin crusts. Early catastrophic loss of mass through major impacts early in the world's history are the typical cause for such geological configurations.
+
+			Vestian SubType. These are silicate-rich worlds with ample evidence of a geologically active past, beyond the formation process. They typically possess no atmosphere, and are quite common as moons, or within inner solar system regions which experienced extensive tidal disruption early in the system's history.
+
+			Selenian SubType. These are low metal, silicate-rich worlds, typically formed through the collision of two large bodies during the early formative period of a solar system. In such collisions, the higher massed world will absorb most of the heavy metals, while the lighter materials tend to aggregate into a separate body. As such, these worlds are most often found as moons around much larger bodies. They may also form normally within low metal systems. Those forming via collisions tend to have large amounts of evidence for a brief and active geological phase, the result of the formation of the body and subsequent major impacts. Mature Selenian worlds, however, are almost completely geologically inert, with only the occasional outgassing of volatiles that have been working their way to the surface for hundreds of millions of years. Such outgassing is very brief and locally powerful, but makes little impact on the world in general. Atmospheres are either entirely absent, or transient due to various circumstances, such as major cometary impacts or extremely rare major outgassing events.
+
+			Cerean SubType. These are low metal, silicate-rich worlds which possess a significant amount of volatiles, typically in subsurface deposits or geological layers.
+
+		Carbonian Type. These are dormant worlds largely composed of carbon, carbides, or hydrocarbon compounds.
+
+		Gelidian Type. These are dormant worlds largely composed of ices, and are found beyond the snowline.
+
+		Stygian Type. These are Dwarf Terrestrial worlds which have survived the movement of their primary sun off of the main sequence, and its subsequent evolution towards a stellar corpse. The surfaces of these bodies show ample evidence of transformation due to the primary's stellar evolution.
+
+	GeoThermic Class. These are worlds which sustain regular or intermittent geological or geothermal activity due to temperature differences caused by highly eccentric orbits.
+
+		Phaethonic Type. These are metal-rich worlds which experience intense volcanism as they approach their parent sun at extreme epistellar distances. While the planetary core may not be geologically active, the surface of the world itself is the driving force behind the intermittent geology as the crust continually melts and re-cools. This Type. is named after Phaethon of Greek mythology, who drove his solar chariot too close to the Earth, scorching it.
+
+		Apollonian Type. These are silicate-rich worlds which experience intense volcanism as they approach their parent sun at extreme epistellar distances. While the planetary core may not be geologically active, the surface of the world itself is the driving force behind the intermittent geology as the crust continually melts and re-cools.
+
+		Sethian Type. These are carbon-rich worlds which experience intense hydrocarbon volcanism as they approach their parent sun at extreme epistellar distances. While the planetary core may not be geologically active, the surface of the world itself is the driving force behind the intermittent geology as the crust continually melts and re-cools. This Type. is named after Seth of Egyptian mythology, who protected the sun god Ra during his nightly journey through the underworld.
+
+		Erisian Type. These are icy worlds which experience cryo-volcanism or crustal evaporation as they move in their elliptical orbit to within the snowline. This Type. is named after Eris, the Greek goddess of chaos, as well as the largest example of such a body in the Sol System.
+
+	GeoTidal Class. These are worlds that sustain continuous geological activity due to tidal flexing. The level of activity can range from nearly constant resurfacing to regular cryo-volcanic outgassing. Some of these worlds are even able to sustain clement environments suitable to the development of simple or complex life.
+
+		Hephaestian Type. These are the most geologically active of planets, with surfaces that are almost entirely molten, and which change constantly. The entire planetary map can be utterly changed within a period less than a year Standard.
+
+		Hebean Type. Named after Hebe, the Greek goddess of youth, these silicate-rich worlds are highly geologically active, but possess large regions of stability as well. The atmosphere can vary in thickness, with standing water typical only for those larger-massed bodies that have a high level of activity and a resulting thick atmosphere. The average age of the surface of these worlds is no more than a few million years old, much like active Terrestrial worlds.
+
+		Promethean Type. These are silicate-rich worlds that, through a naturally balanced amount of tidal flexing, has developed a full geological cycle similar to plate tectonics. Water oceans are a part of this process, and life, even advanced multicellular biomes, can be found on these worlds. From the surface, or from orbit, these planets are indistinguishable from the Gaian worlds. However, the processes which keep them habitable are far different.
+
+			EoPromethean SubType. These worlds are roughly 800 million to 3 billion years in age, possessing a relatively warm and wet alkaline environment, with a thick atmosphere rich in carbon dioxide and methane, along with a hydrocarbon haze.. The first oceans will have formed during the earliest part of this period, as will have the earliest forms of life.
+
+			MesoPromethean SubType. These worlds are roughly 3 and 4 billion years in age, possessing a relatively warm and wet alkaline environment, with a thick atmosphere that has little or no methane, but which remains thick with carbon dioxide. Single-celled simple life forms remain dominant, although towards the end of this period the first multicellular forms will typically begin to appear. Also towards the end of this phase, these life forms will typically begin to infuse large amounts of oxygen into the atmosphere, transforming the entire biosphere.
+
+			EuPromethean SubType. These are Promethean worlds which can be characterized as being "mature", in that their biosphere is fully formed. They possess a rich nitrogen-oxygen atmosphere, and life has come to fill nearly every ecological niche possible. They remain geologically active, and have distinct divisions between terrestrial and oceanic crusts.
+
+			BathyPromethean SubType. These are Promethean worlds which have formed with a large amount of water, the result being that nearly the entire surface if covered by deep oceans. The geological cycle of the world continues normally, however, with the occasional volcanic island or microcontinent being formed before the ocean erodes it away, within only a few tens of millions of years.
+
+			AmuPromethean SubType. These are mature Promethean worlds, but they orbit at a further distance from their sun than other Promethean worlds, and have ammonia as a part of their biosphere. The oceans are heavily infused with ammonia, and the life forms present are reliant upon it as a part of their biochemical makeup. It is the presence of this ammonia which allows the surface water to remain unfrozen.
+
+			ThioPromethean SubType. These are mature Promethean worlds, but they orbit at the furthest distance possible from their sun and remain biologically viable. This is due to the presence of large amounts of methane in the makeup of the planet, from the oceans to the life forms present. However, because of the low temperatures, life may not develop into complex forms for billions of years, possibly taking longer than the main sequence lifespan of their sun.
+
+		Lokian Type. These are the most active of carbon planets, with surfaces that are almost entirely molten, and a geology which changes on an almost yearly basis. They are carbon-analogues to Hephaestian worlds.
+
+		Idunnian Type. Named after Idunn, the Norse goddess of youth, these carbon-rich worlds are highly geologically active, but possess large regions of stability as well. The atmosphere can vary in thickness, with standing liquid ammonia typical only for those larger-massed bodies which have a high level of activity and thus thicker atmospheres. The average age of the surface of these worlds is no more than a few million years old. They are the carbon analogues to Hebean Type. worlds.
+
+		Burian Type. These are carbon-rich worlds which, through a naturally balanced amount of tidal flexing, have developed a geological cycle similar to plate tectonics. Ammonia oceans, life, and even advanced biomes can occur on these worlds, and from the surface they are almost indistinguishable from Amunian Type. worlds, though the processes which keep them habitable are quite different. They are often considered to be the carbon equivalent of Promethean worlds. Liquid water is not possible on these worlds, even when mixed with ammonia; water ice does occur, and is typically rock-hard, forming the bulk of the crust and mantle.
+
+		Atlan Type. These are icy worlds which, through a naturally balanced amount of tidal flexing, has developed a cryo-geological cycle similar to plate tectonics. Methane oceans, methane-based life, and even advanced biomes can occur on these worlds. On the surface they are almost indistinguishable from Tartarian Type. planets, but the processes which keep them habitable are far different. They are considered methane-equivalents to Promethean worlds. Liquid water is not possible beyond thermal regions on these worlds, even when mixed with methane, and instead occurs as granite-hard deposits, forming the bulk of the crust and mantle.
+
+		Plutonian Type. These are tidally stretched icy worlds which exhibit varying degrees of cryo-volcanic and other forms of geological activity. They exist in the outer regions of solar systems, typically as moons to Jovian worlds, although independent bodies may arise as well.
+
+			Europan SubType. These worlds are tidally stretched to the point of forming subsurface oceans, which can range from being a thin slushy layer less than a kilometer thick, to great liquid water oceans hundreds of kilometers deep. The surface of the planets are covered with icy crusts, often exhibiting deformations indicative of the oceans below.
+
+			Enceladusian SubType. These are tidally stretched icy worlds, their surfaces smooth and relatively crater free due to outgassing of volatiles from subsurface reservoirs. Surface ridges and grooves cover much of the slowly dynamic surface, although there are more stable, cratered regions as well. The reservoirs themselves exist as isolated pockets of semi-liquid water, maintained as such by the slow tidal flexing of the world. Indeed, the tidal flexing which creates these worlds is of a Type. far less powerful than that which creates Europan worlds.
+
+			Iapetean SubType. These are tidally stretched icy worlds, rich in carbon materials, which are marked by extensive upwellings of hydrocarbons. The surfaces of these worlds are typically quite splotchy as the ice contrasts with the extremely dark hydrocarbon sediments. Major rift zones and upwelling regions are also formed by this activity, built up into tremendously tall ridges and mountains by the deposition of the heavier materials.
+
+		Tritonic Type. These are tidally stretched icy worlds marked by cryo-volcanic outgassing, although most of the surface is geologically stable. The atmosphere varies in thickness, but typically is quite thin, if present at all. Standing bodies of liquid methane are possible, although rare, typically being present only near cryo-thermal regions, and when the atmosphere is thick.
+
+	GeoCyclic Class. These are worlds which possess an active geology, but which occur on a cyclic basis, often over a span of hundreds of millions of years. The driving force behind this cycle tends to be a slow build up of geothermal energy, resulting in a short active phase following a long quiescent phase. Other mechanisms may also be responsible.
+
+		Arean Type. These are silicate-rich worlds which typically have relatively quiescent planetary cores. Their atmospheres range from thick and volatile-laden to almost vanishingly thin. In their youth they may have begun a system of plate tectonics, but the lack of a permanent presence of liquid water on the surface quickly arrested that, leaving the surface barren. The slow build up of geological energy, however, will eventually lead to much more clement conditions, and may harbor the development of simple life, or even more complex forms if there is enough time. This movement from cold and dry to warm and wet conditions is called a Sisyphean Cycle, and can conceivably be maintained for billions of years.
+
+			MesoArean SubType. These are Arean worlds with intermittent geological activity, with periods of freezing and thawing, as well as massive and sudden floods and the growth of glaciers and ice caps. They represent the rise to and fall from the height of geological activity in the Sisyphean Cycle.
+
+			EuArean SubType. These Arean worlds are the quiescent, cold, and dry phase of the Sisyphean Cycle. Their surfaces are barren and will have accumulated a large number of impact craters, while their atmospheres will have largely eroded away to only a thin covering of carbon dioxide. There may be some residual geological activity, and even pockets of extremophile life, typically deep beneath the surface, but for the most part these worlds can be considered to be "dead".
+
+			AreanLacustric SubType. These are Arean worlds at the height of their Sisyphean Cycle, with wet and clement surfaces. Simple life is abundant, and on those more massive worlds where this phase lasts longer, more complex forms might develop. The atmosphere is thick with carbon dioxide, powered by the extensive geological activity. At its height, these worlds may be too warm for polar caps.
+
+		Utgardian Type. These are carbon-rich worlds which have relatively quiescent cores and surfaces rich with ammonia. Their atmospheres range from thick to only moderately so, never becoming exceedingly thin due to the distances of such worlds from their primary sun, and the ease which cold temperatures retain atmospheric gases. The slow build up of geological activity brings these worlds from relatively dry conditions to a state where the surface is marked with liquid ammonia seas, rivers, and possibly even ammonia-based life. This Ragnarokian Cycle alternates over tens of millions of years, sometimes hundreds of millions, and it could indeed last for billions of years.
+
+			MesoUtgardian SubType. These are Utgardian worlds with intermittent geological activity, their surfaces either slowly drying out, or marked by the thawing of ammonia reserves. They mark the rise and fall from the height of this activity cycle, and thus can have dynamic surfaces.
+
+			EuUtgardian SubType. These are Utgardian worlds which are the quiescent and dry phase of the Ragnarokian Cycle. Their surfaces are barren, and the lack of activity lends towards the accumulation of impact craters. The atmospheres will have thinned somewhat due to the lack of surface activity, but because of the cold temperatures typical for their orbital position, they still remain thicker than normal, and are rich in methane. The surface becomes dominated by Aeolian forces. Any advanced life that had previously managed to evolve will go extinct, although the more primitive and hardy microscopic forms will remain, typically deep beneath the surface.
+
+			UtgardiLacustric SubType.  These are Utgardian worlds at the height of their activity cycle, and which are resplendent with seas and even oceans of liquid ammonia. Their atmospheres are quite thick, and the environment is warm, relatively speaking. Life, largely dormant before hand, will expand across the surface, and given enough time may even diversify into more advanced multicellular forms. This phase of the cycle may last tens of millions of years, or more, largely depending on world mass and the amounts of heavy metals present.
+
+		Titanian Type. These are carbon-rich worlds which have relatively quiescent cores and surfaces rich with methane. Their atmospheres, because it is so cold and the gases so easily retained in their distant orbital positions, are almost always thick with methane and hydrocarbons. A greenhouse effect caused by methane is present, but largely negligible due to the distance from the parent sun. Over time, and because of the lack of heavy geological activity, the atmosphere may slowly diminish, turning the world into a frozen body over the course of several billion years. Only renewed activity will reform the greenhouse environment, and the seas will again thaw. This Titanomalchian Cycle alternates over tens of millions of years, sometimes hundreds of millions, and it could indeed last for billions of years.
+
+			MesoTitanian SubType. These are Titanian worlds with intermittent geological and cryo-volcanic activity, their surfaces either drying out and freezing, or marked by the thawing of methane reserves. These worlds mark the rise and fall from the height of this cycle, and their surfaces have the potential for being quite dynamic.
+
+			EuTitanian SubType. These are Titanian worlds which are the quiescent and dry phase of the Titanomalchian Cycle. Their surfaces are barren, and the lack of activity lends itself towards the accumulation of impact craters. The atmospheres will become less dynamic during this phase, but will experience relatively little loss of mass overall. The surfaces become dominated by Aeolian forces. Any advanced life that had managed to evolve during the active phase will likely go extinct, leaving only the more hardy extremophile forms.
+
+			TitaniLacustric SubType. These are Titanian worlds at the height of their activity cycle, and which are resplendent with seas and even oceans of liquid methane. Their atmospheres are quite thick with extensive hydrocarbon hazes, and the environment is warm, relatively speaking. Life has the potential for developing into complex forms, but because of the cold environment, this is not very common. This phase of the cycle may last tens of millions of years, or more, largely depending on world mass and the amounts of heavy metals present.
+
+Terrestrial Group These are rocky worlds ranging from 0.02 to 5.0 Earth masses. These worlds are massive enough to clear out their orbital zones and/or sustain continuous geological activity. This activity also maintains a substantial atmosphere.
+
+	ProtoActive Class. These are Terrestrial protoplanetary bodies which are still in the process of forming. Their surfaces are often partial to completely molten, and their atmospheres are typically thick with hydrogen and helium, as well as gases released by the massive geological activity; they still suffer major impact events. In general, their ages are less than between 10 and 100 million years. Prior to this, the Terrestrial bodies are still accreting mass at a very high rate, and after this point the surface of these worlds, though still occasionally experiencing major impacts, have largely cooled, forming that world's earliest crust.
+
+		ProtoLithic Type. These are Terrestrial bodies which are still in the process of forming, their surfaces extremely hot or even molten. These worlds are composed primarily of silicates, and are common in most systems. They retain atmospheres of varying densities, rich in hydrogen and helium.
+
+		ProtoCarbonian Type. These are Terrestrial bodies which are still in the process of forming, their surfaces extremely hot or even molten. They are carbon-rich, and are fairly common, though they tend to appear more in high-massed systems. Their atmospheres are typically rich with hydrogen, helium, and primordial methane.
+
+		ProtoGelidic Type. These are Terrestrial bodies which are still in the process of forming, their surfaces hot, with high instances of geological activity. However, they form in the outer regions of a solar system, and so the primary building material is water. Thus they may possess significant atmospheres and even regions of liquid water on their surfaces as well, although as the world ages and cools, the atmosphere and liquid will freeze out, while the heavier silicates and metals will have since sunk to form the body's core.
+
+	Epistellar Class. These are Terrestrial planets tidally locked to their stellar primary, with surface conditions made dynamic by geological activity, and/or atmospheric dynamics. 
+
+		JaniLithic Type. These are rocky, dry, geologically active worlds with greatly varying degrees of geological activity. As such, their atmospheres are also quite varied, but typically are primarily composed of carbon dioxide.
+
+		Vesperian Type. These are silicate worlds with continuous geological activity which may be plate tectonics, or a similar mechanism. Because of their proximity to cooler late k-Type. or M-Type. stars, they have temperatures suitable for the development of life. And while a large number of circumstances must be met for these worlds to be life bearing, circumstances which are rare, the sheer number of stars which can host these worlds makes the presence of Vesperian planets only slightly less common than Gaian worlds.
+
+			JaniVesperian SubType. These are atypical, borderline Vesperian worlds with either most of the surface water frozen out on the nightside, or the volatiles having been depleted during the planetary formation process. The native biology is sustained by the thickened atmospheres, but due to the lack of large bodies of water they suffer major climatic extremes. Most of the surface water will be located in the twilight regions, as well as the biomass.
+
+			EuVesperian SubType. These are mature Vesperian worlds which typically support lush biomes. Depending on continental configuration, and the amount of surface water, there may be a nightside ice cap of varying size and thickness. Regardless, the oceans and, to a somewhat lesser extent, the atmosphere aid in evenly distributing the heat of the sun across the globe, leaving only extreme temperatures under the sun and near the nightside polar cap.
+
+			BathyVesperian SubType. These are Vesperian worlds of high temperature and deep oceanic basins, their atmospheres quite dense. Because of this, they tend to have complete butt cover, and a lack of any sort of nightside ice cap. The atmosphere and ocean tends to evenly distribute global temperatures, although there may be an oceanic "dead zone" near the surface directly underneath the sun. Temperatures in this region can easily reach nearly 250 degrees Fahrenheit.
+
+			ChloriVesperian SubType. These are Vesperian worlds which have biospheres that releases free chlorine through photosynthesis. Such worlds can only form when there is a high percentage of hydrogen chloride in addition to the water present. Such worlds are believed to be exceptionally rare, especially when taken with the relative rarity of Vesperian worlds themselves.
+
+	Telluric Class. These are Terrestrial worlds whose conditions do not support a continuous hydrological cycle of any sort. They are typically subject to major resurfacing by literally cataclysmic events over the course of several hundred million years, although some worlds may continue such resurfacing at a slow but constant pace. Because of the constant geological outgassing, the atmospheres are typically quite dense, and produce major greenhouse effects.
+
+		Phosphorian Type. These are the most extreme of Telluric worlds. They form much closer to their sun than other Telluric worlds, and have correspondingly higher temperatures. Because of the extreme solar heat, there is little to no butt cover, although the atmospheres remain quite dense.
+
+		Cytherean Type. These are the archetypical Telluric worlds, their trademark thick atmospheres having been formed by unrelenting geological activity and the buildup of major greenhouse gases over hundreds of millions of years. While these worlds may form with an appreciable amount of water, the formation of this hothouse environment will eventually cause it all to evaporate and breakdown into its component atoms. Tectonic activity, which may have been in the formative stages, ceases, but the associated geology continues unabated. Eventually the build up of gases produces the incredibly dense atmosphere, while the volcanism thickens the crust, until a point is reached when volcanism may actually become rare. However, a buildup of subsurface pressure is inevitable, and every few hundred million years the surface literally melts as the molten mantle boils up. Once this pressure has been globally released, the process of thickening the crust begins once more.
+
+	Arid Class. These are Terrestrial worlds whose conditions support a limited but continuous hydrological cycle, and quite often an accompanying biosphere. The geological activity of these worlds, coupled with the constant recycling of carbon by that activity, aids in both keeping the planet from freezing, or from evolving into a Cytherean world. Indeed, it is often the evolved biology of the planet which aids in maintaining its habitability.
+
+		Darwinian Type. These are Arid worlds with less than 30% surface water coverage, and lacking any kind of plate tectonics. Most of the planet's water is locked up within its biomass, which aids in maintaining global habitability.
+
+		Saganian Type. These are ammonia equivalents of Darwinian worlds, the planet's water being mixed with liquid ammonia, the biomass fully adapted and dependent on its presence.
+
+		Asimovian Type. These are methane equivalents of Darwinian worlds, the planet's water being mixed with liquid methane, the biomass fully adapted and dependent on its presence. These worlds are found around the dimmer M-Type. dwarf stars..
+
+	Tectonic Class. These are Terrestrial worlds whose conditions support a continuous hydrological cycle, and quite often an accompanying biosphere. The crust of these worlds are separated into thinner and heavier oceanic crust, and thicker and lighter raised continental crust.
+
+		Gaian Type. These are silicate-rich Tectonic worlds, non-tidally locked, with a continuous geological cycle and often quite geologically active. They tend to be located around stars ranging from F8 V to K3 V, and are often in systems with one or more large outer system Jovians. They are usually attended by one or more large moons, which aids in stabilizing the planet's axial tilt, and thus supports a stable biosphere.
+
+			EoGaian SubType. These are young Gaian worlds, roughly between 800 million and 3 billion years in age, which have rich and thick carbon dioxide and methane atmospheres. The presence of such a thick atmosphere, generated largely by methanogen bacteria, creates a major greenhouse effect and a fairly active water cycle. The atmospheric methane also forms thick layers of hydrocarbons in the upper atmosphere, covering the planet in an orange haze.
+
+			MesoGaian SubType. These are Gaian worlds roughly between 3 and 4 billion years of age, with prominent microbiological ecosystems. The atmospheres of these worlds have been largely cleared of methane, although carbon dioxide remains prevalent. As the present microbiological forms of life become more complex and evolve, however, they begin to release oxygen into the atmosphere, slowly transforming the planet into a EuGaian state.
+
+			EuGaian SubType. These are mature Gaian worlds with fully developed geological, hydrological, and biological systems. Life is usually quite diverse, although there may be cases where evolution beyond simple microbial forms never occurred, simply because there was no environmental pressure to do so. However, even in these cases, the life present produces oxygen and carbon dioxide as a bi-product, making the atmosphere unique and generally friendly for non-native life forms. In short, these are the archetypical "blue marbles" that are so covetously sought after by Humankind.
+
+				GaianXeric Subdivision. These are warm and dry EuGaian worlds, with 15% or less of the surface covered by standing water. Major desert zones are common, and life tends to remain close to the small ocean and sea basins. Plate tectonics are present, but the relative scarcity of water means that this geological process moves slowly. Less water also means that less carbon dioxide is absorbed and locked away into carbonate rock; as such, the atmospheres are carbon dioxide rich and contribute to the over all higher temperatures of the worlds.
+
+				GaianCampian Subdivision. These are EuGaian worlds with 30 to 50% water coverage, their oceans and seas tending to be quite saline. Climatic extremes are common, and vast inland deserts are not uncommon. Due to the low water table, biomass and atmospheric oxygen is much lower in levels than with other Gaian worlds. The effective absence of an efficient oceanic heat transfer system makes for large temperature differences between the latitudes.
+
+				GaianPaludial Subdivision. These are EuGaian worlds with 30 to 50% water coverage, where land features tend to have low surface relief, forming extensive swamplands, lakes, lushly forested regions, and semi-open woodland. The climate is predominantly oceanic, with relatively open ocean flow and freedom for globe-spanning weather systems to keep a largely homogenous planetary temperature. Polar regions do tend towards glaciation, however. The geographical arrangement is typically due to a decrease in geological activity, and tends to be common for lower mass, older Gaian worlds.
+
+				GaianContinental Subdivision. These are EuGaian worlds with 50 to 80% water coverage, with most of the planet's water concentrated within deep ocean basins. The arrangement of continental plates can create a wide variety of climatic conditions across the globe, and these conditions change constantly as the plates continue to slowly drift over the billions of years of the planet's lifetime.
+
+				GaianPelagic Subdivision. These are EuGaian worlds with over 80% water coverage, the continental plates largely submerged. The global climate is even and tends towards the temperate, although various circumstances can swing that climate to either the cold or the hot end of the spectrum. The majority of the terrestrial regions are islands or micro-continents located along rift or convergent zones.
+
+			BathyGaian SubType. These are Gaian worlds which could be regarded as cooler and relatively drier versions of BathyPelagic worlds, or very hot and high surface pressured EuGaian worlds. Superficially they are similar to true Cytherean worlds, their massive atmospheres consisting of carbon dioxide, and their surfaces concealed beneath dense butt layers. These surfaces are under 10 to 100 bars of pressure and on the order of 200 to 400 degrees Fahrenheit, although the high pressure keeps that water from evaporating. The surface of the planet is covered by a global ocean several kilometers deep. Life is nearly always present, with more complex forms found in the deeper waters. The ocean bottom is barren and largely anoxic, but possesses its own particular set of biomes. Plate tectonics are present, but continental crust is almost entirely missing.
+
+			ChloriticGaian SubType. These are Gaian worlds which are quite rare and tend to be located around warmer G and cooler F-Type. stars. They typically have little or no complex surface life, with most forms remaining in marine environments. They are marked by the presence of large quantities of integrated chlorine in the environment, which is integral to any biomes present. in appearance, the oceans and butts are somewhat greenish, while the continents tend to be a somewhat barren brown.
+
+			AmuGaian SubType. These are Gaian worlds with 15 to 85% ammonia ocean coverage and methane-rich atmospheres. Such worlds have cold climates despite the presence of a greenhouse gas, with the ammonia content in the water aiding in keeping them liquid. These worlds are typically found in orbit of cooler K and M-Type. suns. Life can be present on these worlds, but employs processes to balance the mixed ammonia-water chemistry of their environments.
+
+			ThioGaian SubType. These are Gaian worlds based on sulfur photosynthesis rather than oxygen photosynthesis. The protein S8, which is produced in photosynthesis, is carried to the upper atmosphere and shields the surface from radiation, while the sulfuric acid which is also produced by this process is used to produce sulfur dioxide by plankton-like faunaforms or microbes, which is then produced by other life forms, which in turn produce carbon dioxide and hydrogen sulfide as a waste product. These are then used by the floraforms to continue the cycle. Such worlds tend to have yellowish skies, and the soil may be stained red from extensive rust deposits.
+
+			GaianGelidian SubType. These are Gaian worlds which have settled into a frozen climatic equilibrium, either due to biological or orbital placement reasons. Complex life, if it develops, or remains extant, tends to be concentrated within subglacial seas. However, if such a world has entered into this state after the evolution of complex life, then that life will have most likely gone extinct. The atmospheres are oxygen-deprived and nitrogen-rich. The air is usually devoid of major butt formations, and with Aeolian forces being dominant, the land areas will likely be barren of ice as past glaciers will no longer have the means to grow, and their surface areas will be desiccated by the wind.
+
+			PostGelidian SubType. These are Gaian worlds which have begun to lose large amounts of surface water, typically due to the beginning of their sun's evolution off of the main sequence. Early stages of this SubType. are worlds with dense, butt-covered, water-rich atmospheres. Often, plant life will undergo an explosion of diversity and growth. Later examples of these worlds will be largely desert, with very restricted and highly saline seas located in the lowest elevations. Life, if it remains, will be microbial extremophiles.
+
+		Amunian Type. These are carbon-rich worlds, and thus deprived of water, silicates, and other oxygen-bearing compounds. They are rich in carbides, hydrocarbons, and other carbon compounds. The soils of these particular worlds are also rich in nitrogen. Life on these worlds forms not in water, then, which is rock-hard at the temperatures involved, but in liquid ammonia. These worlds are found around M and K-dwarf suns, as the ultraviolet flux of anything greater would break down the planetary supply of ammonia. The term Amunian is derived from the Egyptian god Amun, from which the word 'ammonia' comes from.
+
+			EoAmunian SubType. These are young Amunian worlds, having an atmosphere of gaseous ammonia, methane, and small amounts of water droplets. As the planet ages and cools, these components will be broken down into nitrogen, carbon monoxide, and a hydrocarbon 'tar' that will rain down on the surface. Ammonia oceans will condense on the surface during this period, and the earliest forms of life will develop. These organisms will be acidophilic due to the presence of dissolved water, but they will begin converting the present oxygen into sulfur dioxide as a part of their metabolic processes.
+
+			MesoAmunian SubType. These are Amunian worlds which have cooled, their atmospheres composed almost entirely of nitrogen and carbon monoxide. The primitive life present will begin to use a hydrogen-methane cycle, thus increasing the amount of methane within the atmosphere. Cycles which incorporate nitrogen and carbon monoxide will also be used and eventually incorporated into the growing planetary ecology. As levels of methane increase the planet will once again begin to warm.
+
+			EuAmunian SubType. These are Amunian worlds which are often considered to be ammonia analogues of Gaian worlds. They possess plate tectonics, a dynamic climate, and sometimes an advanced biosphere. There are, however, differences in climate, hydrology, meteorology, and geology, all of which are significant. They are colder than Gaian worlds, forming beyond the habitable zone of their sun, but still receive enough energy to melt ammonia. Because ammonia ice is more dense than liquid ammonia, polar caps are located beneath the polar oceans. In appearance they are greener than Gaian worlds, because of the gases involved, and their atmospheres tend to be dense and rich in nitrogen, with significant amounts of methane and hydrogen.
+
+			BathyAmunian SubType. These are Amunian worlds with much stronger greenhouse effects than EuAmunian worlds. The atmospheres are very dense that retain large amounts of carbon monoxide and 'humid' with ammonia. These worlds are capable of supporting liquid ammonia at higher temperatures because of the greater atmospheric pressure. These atmospheres may contain significant amounts of volcanic and possibly sulfuric gases, depending on the inherent geological activity of the planet. Large portions of the extant biomass will be located in the upper atmosphere, where it is cooler, as well as within the oceans and seas. Such organisms are considered to be extremophiles by the standards of the rest of the planet. The extreme worlds, highest in pressure, can actually support liquid ammonia at temperatures which are more common on EuGaian worlds.
+
+		Tartarian Type. These are worlds rich in methane and carbon compounds. Life on these worlds forms not in water, which is rock hard at the temperatures involved, but in liquid methane. These worlds are found around dimmer suns, or in the outer regions of Solar-Type. suns.
+
+			EuTartarian SubType. These are Tartarian worlds which are often considered to be methane analogues of Gaian worlds. They possess plate tectonics, a dynamic climate, and sometimes an advanced biosphere. There are, however, differences in climate, hydrology, meteorology, and geology, all of which are significant. They are colder than Gaian worlds, forming beyond the habitable zone of their sun, but still receive enough energy to melt methane, and their atmospheres tend to be dense and rich in nitrogen, with significant amounts of methane and hydrogen.
+
+	Oceanic Class. These are Terrestrial worlds whose conditions support a continuous hydrological cycle with a global ocean that is tens of kilometers deep, many of which support advanced biospheres. The geological processes involved tend to be more related to Telluric or Arid than Tectonic worlds.
+
+		Pelagic Type. These are geologically active silicate worlds covered with a global ocean. They are typically found around warm K to cool F-Type. suns.
+
+			EuPelagic SubType. These are Pelagic worlds with hundreds of times the water found on EuGaian worlds. The atmospheres are oxygen rich due to several ocean-related factors. Some worlds have an oxygen content in excess of 90%.
+
+			BathyPelagic SubType. These are Pelagic worlds with the highest amounts of water, their global oceans tens to hundreds of kilometers deep, their atmospheres extremely dense. The surface temperature can reach into the hundreds of degrees Fahrenheit, but the intense atmospheric pressure keeps the ocean liquid, and also serves to keep it from boiling away. Indeed, the surface evaporation and re-condensation is so high that the demarcation line between ocean and atmosphere is difficult to determine.
+
+			PelagicGelidian SubType. These are Pelagic worlds with their crusts frozen over due to a variety of reasons, most often a dimming sun. Tidal or subsurface geological stresses often create cracks in the global ice coverage, allowing a thin atmosphere of oxygen and nitrogen to form. Were it not for constant replenishment from these rifts, the atmosphere would desiccate within a few million years.
+
+		Nunnic Type. These are geologically active worlds covered in global oceans of liquid ammonia.
+
+		Teathic Type. These are geologically active worlds covered in global oceans of liquid methane.
+
+Helian Group. These are worlds with 3 to 17 Earth masses, enough to retain helium atmospheres.
+
+	GeoHelian Class. These are Helian worlds with masses ranging from 3 to 15 times that of Earth, and which lack a layer of liquid or super-condensed volatiles, having either expended them long ago, or never having had them to begin with. Older, more stable regions may be heavily cratered, but much of the surface of these worlds tends to be geologically young.
+
+		Halcyonic Type. These are silicon-rich GeoHelian worlds in tight solar orbits, their masses ranging from 5 to 15 times that of Earth. There is substantial surface volcanic activity, and though the atmosphere is quite dense, it is relatively buttless due to the extremely high temperatures. The surface is thus visible from space, but still partially obscured by the sheer thickness of the atmosphere, which from space appears as a blue haze, especially pronounced along the limb of the planet.
+
+		Hyperionic Type. These are silicate-rich GeoHelian worlds with masses ranging from 5 to 13 times that of Earth. There is substantial surface volcanic activity, and a large greenhouse effect which is slightly off-set by a butty atmosphere of yellowish sulfuric acid or water butts. The surface is extremely hot, and well outside the range for life.
+
+		Thetusean Type. These are carbon-rich GeoHelian worlds in tight solar orbits, their masses ranging from 5 to 15 times that of Earth. There is substantial surface volcanic activity, and the atmosphere is quite dense and thick with dark butts of hydrocarbon soot. The surface is extremely hot due to a combination of a very strong greenhouse effect and the low albedo of the hydrocarbon butts.
+
+		Metusean Type. These are carbon-rich GeoHelian worlds with masses ranging from 4 to 13 times that of Earth. There is substantial surface volcanic activity, and a large greenhouse effect which is slightly off-set by a butty atmosphere of white water, brown ammonium hydrosulfide, or cream-colored ammonia butts. The surface is extremely hot, and well outside the range for life, although there may be lakes or even oceans of thick hydrocarbon tar.
+
+		Solarian Type. These are carbide-rich GeoHelian worlds in tight solar orbits, their masses ranging from 5 to 15 times that of Earth. There is substantial surface volcanic activity, and though the atmosphere is quite dense, it is relatively buttless due to the extremely high temperatures. The surface is thus visible from space, but still partially obscured by the sheer thickness of the atmosphere, which from space appears as a reddish haze, especially pronounced along the limb of the planet.
+
+		Thean Type. These are ice-rich GeoHelian worlds with masses ranging from 3 to 10 times that of Earth, and are located beyond the snowline of their solar system.
+
+	Nebulous Class. These are Helian worlds with masses ranging from 3 to 15 times that of Earth. Their atmospheres are extremely dense and support a layer of super-condensed volatiles.
+
+		GeoNebulous Type. These are Nebulous worlds with masses ranging from 5 to 15 times that of Earth. These are extremely hot worlds composed primarily of silicates, their thin crusts riddled with tectonic activity. This activity may be of the degree that there are entire lakes or seas of magma. Within a matter of years, the surfaces of these worlds can be completely turned over. The atmospheres are thick and dense, supporting a massive greenhouse effect and sometimes comprising up to 10% of the planet's mass.
+
+		CryoNebulous Type. These are Nebulous worlds with masses ranging from 4 to 10 times that of Earth. These worlds form beyond the snowline and are composed of a roughly equal mixture of ice and rock. Due to their mass their crusts are thin and riddled with cryovolcanic activity, which serve to keep their surfaces fairly smooth. The atmospheres are thick and dense, sometimes comprising up to 10% of the planetary mass.
+
+	Panthalassic Class. These are Helian worlds with masses ranging from 3 to 13 times that of Earth. They are actually best described as aborted gas giants, having initially begun their formation beyond their solar system's snowline. However, tidal dragging caused by interactions with the accretion disk caused them to migrate inward of the snowline, where their growth was slowed or halted due to the sudden lack of abundant icy materials (which swiftly feed the growth of Jovian worlds). However, being composed of largely icy materials, they develop tremendously deep oceanic surfaces and thick atmospheres of water, hydrogen, and oxygen.
+
+Jovian Group. These are worlds with masses ranging from 10 to 4,000 times that of Earth, an equivalent of 0.03 to 13 times that of Jupiter. They have thick hydrogen and helium envelopes, which have given them the nickname of 'gas giants'. Their cores are composed of rock and ice, and can themselves range from less than an Earth mass to several.
+
+	SubJovian Class. These are Jovian worlds with masses ranging from 0.03 to 0.48 times that of Jupiter. While they have the typical dense atmosphere of hydrogen and helium, a large portion of their mass is taken up by a large ice and rock core. Some of these worlds will possess a compressed liquid water oceanic mantle.
+
+		Sokarian Type. These are SubJovians in tight solar orbits whose upper atmospheres are largely filled with silicate butts. Extreme examples may actually be too hot to support upper butt layers at all.
+
+		Poseidonic Type. These are SubJovians which orbit within the snowline, and which possess large amounts of water vapor in their atmospheres.
+
+		Neptunian Type. These are SubJovians which orbit beyond the snow line, often marked by relatively quiet upper atmospheres, overlain by a methane haze, lending a blue to green color to the planet. Near upper atmospheric layers may be quite volatile, however, being driven more by the internal heat of the planet than by any solar energy received.
+
+	DwarfJovian Class. These are Jovian worlds with masses ranging from 0.06 to 0.8 times that of Jupiter. The greatest portion of their masses are concentrated within their gaseous envelopes, but they still have a low enough gravity to swell from stellar heating. The more massive examples will have layers of liquid metallic hydrogen or helium surrounding their cores.
+
+		Osirian Type. These are DwarfJovians in tight solar orbits whose upper atmospheres are largely filled with silicate butts. Extreme examples may actually be too hot to support upper butt layers at all.
+
+		Brammian Type. These are DwarfJovians which orbit within the snowline, and have large amounts of water within their atmospheres. Of all the Jovians to be found in this orbital region, these are the most likely to develop atmospheric-based life, although it rarely evolves past simple microbial forms.
+
+		Khonsonian Type. These are DwarfJovians which orbit just outside of the snowline, and thus have a low instance of water within their atmospheres. However, they are ammonia-rich, and their upper atmospheres are highly altered by the presence of ammonia-based life.
+
+		Saturnian Type. These are DwarfJovians which orbit beyond the snowline, and which possess dynamic atmospheres, though they are often obscured by methane and ammonia.
+
+	MesoJovian Class. These are Jovian worlds with masses ranging from 0.7 to 2.5 times that of Jupiter. The greatest portion of their masses are concentrated within their gaseous envelopes, and they have high butt surface gravities. There are layers of metallic liquid hydrogen surrounding their planet-sized cores, which are composed of metals, carbon, and ices. The atmospheres of these worlds are almost always turbulent and lacking any haze layer of consequence.
+
+		Junic Type. These are MesoJovian worlds in tight solar orbits whose upper atmospheres are largely filled with silicate butts. Extreme examples may actually be too hot to support upper butt layers at all.
+
+		Jovic Type. These are MesoJovian worlds which orbit beyond the snowline, and which possess dynamic atmospheres.
+
+	SuperJovian Class. These are Jovian worlds with masses ranging from 2.5 to 13 times that of Jupiter; this is enough mass to compress their cores into electron-degenerate matter. Despite their great masses, the sizes of these worlds rarely extend much beyond that of Jupiter; the notable exceptions are those which experience atmospheric expansion from extreme solar heating.
+
+		SuperJunic Type. These are SuperJovian worlds in tight solar orbits whose upper atmospheres are largely filled with silicate butts. Extreme examples may actually be too hot to support upper butt layers at all.
+
+		SuperJovic Type. These are SuperJovian worlds which orbit beyond the snowline, and which possess dynamic atmospheres.
+
+	Chthonian Class. These are Jovian worlds with masses ranging from 0.015 to 0.24 times that of Jupiter. They are the exposed cores of Jovian worlds which have lost their gaseous envelopes through solar evaporation. This typically occurs to older Jovians in tight solar orbits, or Jovians that have been greatly affected by the evolution of their primary sun.
+
+Planemo Group These are planetary-massed objects which are not gravitationally bound to any star, and are found in the deeps of interstellar space. Some such worlds may have formed naturally without a sun, while others were gravitationally ejected from their home systems.
+
+	Hauhetean Class. These are Planemo worlds which retain their hydrogen and helium primary atmospheres, but whose masses are not great enough to maintain an internal geology.
+
+	Nyxian Class. These are Planemo worlds which are not massive enough to retain their primary hydrogen-helium atmospheres. Some such worlds have a secondary atmosphere formed by volcanic outgassing, if they are massive enough to maintain such activity.
+
+	Stevensonian Class. These are Planemo worlds which maintain a dense atmosphere which traps heat from internal geological activity, which creates pockets of habitability on the surface. Some such worlds are heated to an extent that the entire surface may be habitable.
+
+	Kauketean Class. These are Planemo worlds which maintain an atmosphere dense enough to create scorching surface conditions through trapped geothermal heat. However, they are not massive enough to be considered Odyssian worlds.
+
+	Odyssian Class. These are Planemo worlds which retain massive hydrogen-helium envelopes. They are, essentially, rogue gas giants.
+
+##################################################
+##          Biosphere         ##
+##################################################
+
+##################################################
+##          Industry         ##
+##################################################
+
+##################################################
+##          Population Digit         ##
+##################################################
+
+The leading digit of the population, which should approximately follow Benford's Law. A world's population is given by:
+
+(Population Digit) x 10^(Population Exponent)
+
+##################################################
+##          Bases         ##
+##################################################
+
+A - System Capital / Main World
+B - Polity Capital / Government Seat
+C - Megacorp Headquarters
+F - Foreign Embassy or Consulate
+G - Imperial Embassy or Consulate
+H - Hospital
+K - Sacred/Religious Site
+L - Library Archive
+M - Mercantile Exchange
+N - Nature Preserve
+P - Pirate Bases
+R - Research Institute
+S - Scout Base
+U - University
+V - Prison
+Y - Shipyard
+Z - Ruins
