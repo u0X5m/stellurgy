@@ -37,7 +37,7 @@ def label_format(d):
                 rw = "│"
                 if world == sorted(worlds)[-1]:
                     kw = "└"
-                    rw = "  "
+                    rw = " "
                 world = worlds[world]
                 s += ro + "      " + kw + "── " + world["Name"] + "\n"
                 s += ro + "      " + rw + "     " + world["Type"] + "\n"
@@ -50,7 +50,7 @@ def label_format(d):
                     for sat in sorted(world["Satellites"]):
                         if sat == sorted(world["Satellites"])[-1]:
                             ks = "└"
-                            rs = "  "
+                            rs = " "
                         sat = world["Satellites"][sat]
                         s += ro + "      " + rw + "          " + ks + "── " + sat["Name"] + "\n"
                         s += ro + "      " + rw + "          " + rs + "     " + sat["Type"] + "\n"

@@ -1,6 +1,6 @@
 import tkinter as tk
 import re
-from modules.generators.sysgen import sysgen
+from modules.generators.rttgen import rttgen
 from modules.misc_tools.decode_uwp import decode_uwp
 from modules.misc_tools.format import label_format
 
